@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/20824ea60f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contact | Developer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo.png" alt="My Portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="abouti.html">About</a></li>
+            <li><a href="work.html">My Projects</a></li>
+            <li><a href="contacti.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">The Ways You Can Reach Me</p>
+
+
+
+      <form target="_blank" action="https://formsubmit.co/kipnissroni@gmail.com" method="POST" required>
+
+          <div class="text-fields">
+            
+
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+              required
+            />
+            <input type="hidden" name='_next' value="https://ron-kipnis-myportfolio.netlify.app/thankYou.html" />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+              required
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email" required
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone" required
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message" required
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark" target="_blank">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- Section B: Contact Info -->
+
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <!-- 1 -->
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>Kipnissroni@gmail.com</p>
+          </div>
+          <!-- 2 -->
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>(+972) 52-4435451</p>
+          </div>
+          <!-- 3 -->
+          
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2021. All Rights Reserved</p>
+        <div class="social">
+          <a href="https://github.com/RoniKipnis" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ron-kipnis/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
