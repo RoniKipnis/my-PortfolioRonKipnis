@@ -4,17 +4,7 @@
   margin: auto;
   overflow: hidden;
 }
-.thankYou {
-  margin-top: 100px;
-}
 
-.btn-light2 {
-  display: inline-block;
-  padding: 0.8rem 2rem;
-  transition: all 0.5s;
-  border: none;
-  cursor: pointer;
-}
 .btn-main,
 .btn-light,
 .btn-dark {
@@ -276,7 +266,7 @@ img {
 
 #header-home {
   background: url('../img/showcase.jpg') no-repeat center right/cover;
-  height: 92vh;
+  height: 90.4vh;
   color: #fff;
 }
 #header-home .header-content {
@@ -507,7 +497,7 @@ img {
   align-items: center;
 }
 #main-footer .footer-content .social .fab {
-  margin-right: 2rem;
+  margin-right: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
   height: 20px;
@@ -516,7 +506,9 @@ img {
   text-align: center;
   padding: 0.5rem;
   transition: background 0.5s;
-  background: #fff;
+}
+#main-footer .footer-content .social .fab {
+  background-color: #ffffff;
 }
 #main-footer .footer-content .social .fab:hover {
   background: #ffbc00;
@@ -525,14 +517,14 @@ img {
 
 @media (max-width: 800px) {
   #header-home {
-    height: 47rem;
+    height: 91rem;
   }
   #header-home .header-content {
     padding-top: 5rem;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   #main-nav {
     flex-direction: column;
     align-items: center;
@@ -541,15 +533,13 @@ img {
     padding: 1rem;
   }
   #header-home {
-    height: 10rem;
+    height: 43.5rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%;
   }
-  #header-home .header-content {
-    display: none;
-  }
+
   #header-inner {
-    height: 10rem;
+    height: 12rem;
     background-position: 20% 30%;
   }
   #home-a .specials,
